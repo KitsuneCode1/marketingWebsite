@@ -19,7 +19,7 @@ html{
     justify-content: center;
     align-items: center;
     background-color: #f7f9fb;
-    transition: opacity 3s, visbility 3s;
+    transition: opacity 0.75s, visbility 0.75s;
 }
 
 .loader-hidden{
