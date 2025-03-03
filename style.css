@@ -9,43 +9,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.loader{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f7f9fb;
-    transition: opacity 0.75s, visbility 0.75s;
-    z-index: 100;
-}
-
-.loader-hidden{
-    opacity: 0;
-    visibility: hidden;
-}
-
-.loader::after{
-    content: "";
-    width: 75px;
-    height: 75px;
-    border: 15px solid #dddddd;
-    border-top-color: #5c6fd5;
-    border-radius: 50%;
-    animation: loader 0.75s ease infinite;
-}
-
-@keyframes loader{
-    from{
-        transform: rotate(0turn);
-    }
-    to{
-        transform: rotate(1turn);
-    }
-}
 body{
     width: 100%;
     height: 100%;
@@ -58,7 +21,7 @@ body{
     margin: 0 auto;
     background-color: #fefefe;
 }
-/* Reusable code starts */
+/* Reusable Code Starts */
 button.btn{
     padding: 14px 30px;
     border-radius: 25px;
@@ -101,9 +64,9 @@ header.section-heading p{
     margin: 10px 0 20px;
     line-height: 1.3;
 }
-/* Reusable code ends */
+/* Reusable Code Ends */
 
-/* Home section styling starts */
+/* Home Section Styling Starts */
 section.home{
     width: 100%;
     min-height: 100vh;
@@ -294,13 +257,13 @@ section.home{
 
 .home .banner .text-wrapper p{
     font-size: 15px;
-    /* color: #e2e9fa; */
+    color: #e2e9fa;
     line-height: 1.3;
     margin-bottom: 30px;
 }
-/* Home section styling ends */
+/* Home Section Styling Ends */
 
-/* Features section styling starts */
+/* Features Section Styling Starts */
 section.features{
     position: relative;
     width: 100%;
@@ -346,7 +309,7 @@ section.features{
     text-transform: capitalize;
     margin: 20px 0 10px;
 }
-/* Features section styling ends */
+/* Features Section Styling Ends */
 
 /* About Section Styling Starts */
 section.about{
@@ -962,7 +925,47 @@ section.copyrights{
 }
 /* Copyrights Section Styling Ends */
 
-/* Media Query starts */
+/* Preloader Styling Starts */
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f9fb;
+    transition: opacity 0.75s, visbility 0.75s;
+    z-index: 100;
+}
+
+.loader-hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #5c6fd5;
+    border-radius: 50%;
+    animation: loader 0.75s ease infinite;
+}
+
+@keyframes loader{
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+/* Preloader Styling Ends */
+
+/* Media Query Starts */
 
 @media(max-width: 1068px){
     /* Serivces Section */
