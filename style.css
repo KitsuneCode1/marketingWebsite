@@ -973,12 +973,6 @@ section.copyrights{
     .blog .blog-contents{
         grid-template-columns: 1fr 1fr;
     }
-    /* Preloader Section */
-    .loader{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 @media(max-width: 968px){
@@ -989,12 +983,6 @@ section.copyrights{
     /* Footer Section */
     section.footer{
         grid-template-columns: 1fr 1fr;
-    }
-    /* Preloader Section */
-    .loader{
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
 
@@ -1011,12 +999,6 @@ section.copyrights{
     .about .about-bg-blob img{
         position: absolute;
         bottom: 0px;
-    }
-    /* Preloader Section */
-    .loader{
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
 
@@ -1075,12 +1057,6 @@ section.copyrights{
     .states .states-container{
         grid-template-columns: 1fr 1fr;
     }
-    /* Preloader Section */
-    .loader{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 @media(max-width: 668px){
@@ -1098,12 +1074,6 @@ section.copyrights{
     /* Copyrights Section */
     .copyrights p{
         flex-direction: column;
-        align-items: center;
-    }
-    /* Preloader Section */
-    .loader{
-        display: flex;
-        justify-content: center;
         align-items: center;
     }
 }
@@ -1134,12 +1104,6 @@ section.copyrights{
     section.footer{
         grid-template-columns: 1fr;
         grid-gap: 40px 0;
-    }
-    /* Preloader Section */
-    .loader{
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
 
