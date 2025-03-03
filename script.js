@@ -1,3 +1,12 @@
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+    loader.classList.add("loader-hidden");
+
+    loader.addEventListener("transitionend", () => {
+        document.body.removeChild("loader");
+    })
+})
+
 var menuBtn = document.querySelector('.menu-btn');
 var navLinksWrapper = document.querySelector('.nav-links');
 var navsLinks = document.querySelectorAll('.nav-links li a')
