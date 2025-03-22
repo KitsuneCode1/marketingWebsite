@@ -1005,9 +1005,10 @@ section.copyrights{
     }
     /* Preloader Section */
     .loader::after{
-        border: 11px solid #dddddd;
         width: 50px;
         height: 50px;
+        border: 11px solid #dddddd;
+        border-top-color: #5c6fd5;
     }
 }
 
@@ -1087,9 +1088,10 @@ section.copyrights{
     }
     /* Preloader Section */
     .loader::after{
-        border: 8px solid #dddddd;
         width: 40px;
         height: 40px;
+        border: 8px solid #dddddd;
+        border-top-color: #5c6fd5;
     }
 }
 
